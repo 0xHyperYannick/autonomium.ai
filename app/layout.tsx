@@ -4,9 +4,12 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Autonomium — Autonomy Engineering",
+  title: "Autonomium",
   description:
     "Build businesses that compound without you. Autonomy engineering for operators who refuse to be the bottleneck.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
