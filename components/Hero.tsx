@@ -107,7 +107,7 @@ export default function Hero() {
           transition={{ type: "spring", stiffness: 100, damping: 30, delay: 1.4 }}
         >
           <MagneticButton href="https://cal.com/autonomium">
-            Start the Audit <ArrowRight weight="bold" size={16} />
+            Free Audit <ArrowRight weight="bold" size={16} />
           </MagneticButton>
         </motion.div>
       </div>

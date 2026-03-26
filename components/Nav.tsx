@@ -42,7 +42,7 @@ export default function Nav() {
       </div>
 
       <MagneticButton variant="primary" href="https://cal.com/autonomium" className="text-xs px-5 py-2">
-        Start the Audit
+        Free Audit
       </MagneticButton>
     </motion.nav>
   );
