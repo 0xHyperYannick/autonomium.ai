@@ -69,7 +69,7 @@ export default function Footer() {
               X / Twitter
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/autonomium"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-ink transition-colors duration-300"
