@@ -110,7 +110,8 @@ export default function ScrollGradientBackground() {
   const layer3X = useTransform(mouseX, [-1, 1], ["55px", "-55px"]);
 
   // Stars fade out as gradient enters atmosphere
-  const starsOpacity = useTransform(scrollYProgress, [0, 0.45, 0.7], [1, 0.5, 0]);
+  // Hold full opacity through void/deep-indigo zone, then fade as purple rises
+  const starsOpacity = useTransform(scrollYProgress, [0, 0.70, 0.82], [1, 1, 0]);
 
   // Distant: many tiny 1px dots
   const smallStars = useMemo(() => generateBoxShadow(300, 12345, 1), []);
@@ -127,13 +128,13 @@ export default function ScrollGradientBackground() {
         style={{
           backgroundImage: `radial-gradient(
             ellipse 160% 30% at 50% 105%,
-            rgb(58, 100, 235) 0%,
+            rgb(114, 144, 254) 0%,
             rgb(72, 118, 240) 10%,
             rgb(100, 145, 248) 18%,
             rgb(149, 186, 254) 26%,
             rgb(190, 213, 255) 34%,
             rgb(168, 177, 254) 42%,
-            rgb(128, 125, 239) 52%,
+            rgb(128, 125, 239) 55%,
             rgb(87, 72, 223) 62%,
             rgb(38, 13, 104) 76%,
             rgb(4, 2, 15) 90%,

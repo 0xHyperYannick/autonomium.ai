@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import ScrollReveal from "./ui/ScrollReveal";
 
@@ -11,9 +10,9 @@ const quoteWords =
 
 export default function Footer() {
   return (
-    <footer className="relative bg-transparent text-ink">
+    <footer className="relative bg-transparent text-white">
       {/* North star quote */}
-      <div className="px-6 md:px-12 lg:px-20 pt-32 pb-24 max-w-5xl mx-auto">
+      <div className="px-6 md:px-12 lg:px-20 pt-12 pb-96 max-w-5xl mx-auto">
         <ScrollReveal>
           <p className="font-mono text-xs tracking-[0.2em] uppercase text-accent/60 mb-10">
             The North Star
@@ -41,47 +40,10 @@ export default function Footer() {
       </div>
 
       {/* Footer bar */}
-      <div className="border-t border-ink/[0.06] px-6 md:px-12 lg:px-20 py-10">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-          <Image
-            src="/logo.png"
-            alt="Autonomium"
-            width={120}
-            height={28}
-            className="h-6 w-auto opacity-60"
-          />
-
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-6 text-sm text-ash">
-            <a
-              href="https://hypersynthesis.substack.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-ink transition-colors duration-300"
-            >
-              HyperSynthesis Newsletter
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-ink transition-colors duration-300"
-            >
-              X / Twitter
-            </a>
-            <a
-              href="https://www.linkedin.com/company/autonomium"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-ink transition-colors duration-300"
-            >
-              LinkedIn
-            </a>
-          </div>
-
-          <p className="font-mono text-xs text-ash/60">
-            &copy; {new Date().getFullYear()} Autonomium
-          </p>
-        </div>
+      <div className="border-t border-white/[0.06] py-10 text-center">
+        <p className="font-mono text-xs text-white/40">
+          &copy; {new Date().getFullYear()} Autonomium
+        </p>
       </div>
     </footer>
   );
