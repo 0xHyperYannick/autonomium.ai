@@ -9,11 +9,11 @@
   --color-surface-dim: #0D052B;
   --color-accent: #7290FE;
   --color-accent-dim: #5748DF;
-  --color-ash: #737373;
-  --color-smoke: #A3A3A3;
-  --color-chalk: #E5E5E5;
-  --color-ink: #F7F6F3;
-  --color-ink-light: #A3A3A3;
+  --color-ash: #8E96C9;
+  --color-smoke: #B4BAE0;
+  --color-chalk: #E5E5F8;
+  --color-ink: #F0EFFF;
+  --color-ink-light: #8E96C9;
 
   --font-satoshi: 'Satoshi', system-ui, sans-serif;
   --font-body: var(--font-geist-sans), system-ui, sans-serif;

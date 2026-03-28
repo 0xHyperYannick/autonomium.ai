@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tail:*)",
+      "Bash(cd:*)",
+      "Bash(cd \"/Users/HyperYannick/GitHub Projects/autonomium.ai\" && npx next --version 2>&1)",
+      "Bash(sleep 8:*)",
+      "Bash(head:*)",
+      "Bash(grep:*)",
+      "Bash(curl:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(ls:*)"
+    ]
+  }
+}
