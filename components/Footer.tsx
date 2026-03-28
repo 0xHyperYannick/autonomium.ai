@@ -11,7 +11,7 @@ const quoteWords =
 
 export default function Footer() {
   return (
-    <footer className="relative bg-surface text-ink">
+    <footer className="relative bg-transparent text-ink">
       {/* North star quote */}
       <div className="px-6 md:px-12 lg:px-20 pt-32 pb-24 max-w-5xl mx-auto">
         <ScrollReveal>

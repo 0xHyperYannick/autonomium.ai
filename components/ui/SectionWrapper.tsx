@@ -19,7 +19,7 @@ export default function SectionWrapper({
     <section
       id={id}
       className={`relative ${padding} px-6 md:px-12 lg:px-20 ${
-        dim ? "bg-surface-dim text-ink" : "bg-surface text-ink"
+        dim ? "bg-transparent text-ink" : "bg-transparent text-ink"
       } ${className}`}
     >
       <div className="mx-auto max-w-7xl">{children}</div>

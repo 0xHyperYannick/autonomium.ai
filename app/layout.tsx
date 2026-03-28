@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
+import ScrollGradientBackground from "@/components/ui/ScrollGradientBackground";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,7 +26,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-surface text-ink overflow-x-hidden">{children}</body>
+      <body className="text-ink overflow-x-hidden">
+        <ScrollGradientBackground />
+        {children}
+      </body>
     </html>
   );
 }

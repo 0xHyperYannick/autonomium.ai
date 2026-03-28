@@ -10,7 +10,7 @@ const gridLines = Array.from({ length: 12 }, (_, i) => i);
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[100dvh] bg-surface text-ink overflow-hidden">
+    <section className="relative min-h-[100dvh] bg-transparent text-ink overflow-hidden">
       {/* Structural grid visual — right side */}
       <div className="absolute inset-y-0 right-0 w-1/2 hidden lg:block pointer-events-none">
         <div className="relative h-full w-full">
