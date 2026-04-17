@@ -9,7 +9,16 @@ export const metadata: Metadata = {
   description:
     "Build businesses that compound without you. Autonomy engineering for operators who refuse to be the bottleneck.",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
+  },
+  openGraph: {
+    images: [{ url: "/icon-512.png", width: 512, height: 512 }],
   },
 };
 
