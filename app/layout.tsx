@@ -5,6 +5,7 @@ import ScrollGradientBackground from "@/components/ui/ScrollGradientBackground";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://autonomium.ai"),
   title: "Autonomium",
   description:
     "Build businesses that compound without you. Autonomy engineering for operators who refuse to be the bottleneck.",
@@ -18,7 +19,12 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   openGraph: {
-    images: [{ url: "/icon-512.png", width: 512, height: 512 }],
+    siteName: "Autonomium",
+    title: "Autonomium",
+    description:
+      "Build businesses that compound without you. Autonomy engineering for operators who refuse to be the bottleneck.",
+    url: "https://autonomium.ai",
+    images: [{ url: "/icon-512.png", width: 512, height: 512, alt: "Autonomium" }],
   },
 };
 
