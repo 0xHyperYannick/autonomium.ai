@@ -59,7 +59,7 @@ export default function AutoFramework() {
               delay={i * 0.1}
               className={span}
             >
-              <div className="group relative p-8 md:p-10 rounded-2xl bg-surface border border-ink/[0.06] hover:border-accent/30 transition-colors duration-500 h-full">
+              <div className="group relative p-8 md:p-10 rounded-2xl bg-void/40 backdrop-blur-md border border-ink/[0.08] hover:border-accent/30 hover:bg-void/50 transition-colors duration-500 h-full">
                 <div className="flex items-start justify-between mb-6">
                   <div className="flex items-center gap-4">
                     <span className="font-satoshi font-black text-5xl tracking-tight text-ink/10">
