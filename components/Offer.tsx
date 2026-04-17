@@ -50,7 +50,7 @@ export default function Offer() {
         </h2>
       </ScrollReveal>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-0 border border-ink/[0.06] rounded-2xl overflow-hidden bg-surface">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-0 border border-ink/[0.08] rounded-2xl overflow-hidden bg-void/40 backdrop-blur-md">
         {tiers.map((tier, i) => (
           <ScrollReveal key={tier.phase} delay={i * 0.1}>
             <div
